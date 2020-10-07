@@ -1,0 +1,2 @@
+ch=input("enter any character:")
+print("ASCII VALUE of a char "+ ch + " is: ",ord(ch))
