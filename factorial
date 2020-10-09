@@ -1,0 +1,11 @@
+n=int(input("enter anumber:"))
+if n <  0 :
+    print("factorial does not exist")
+elif n==0:
+    print("factorial of 0 is 1")
+else:
+    fact=1
+    while(n>0):
+        fact=fact*n
+        n=n-1
+    print("factorial=",fact)
