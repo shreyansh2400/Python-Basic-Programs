@@ -1,0 +1,5 @@
+p=int(input("enter ammount:"))
+t=int(input("enter year:"))
+r=int(input("enter rate:"))
+si=p*t*r/100
+print(si)
