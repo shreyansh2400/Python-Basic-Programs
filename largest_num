@@ -1,0 +1,9 @@
+n=int(input("enter the number of element : "))
+list=[]
+for i in range(1,n +1):
+    a=int(input("enter numbers : "))
+    list.append(a)
+print("the elements:",list)
+for i in range(0,len(list)):
+    list.sort()
+print(list[-1])
