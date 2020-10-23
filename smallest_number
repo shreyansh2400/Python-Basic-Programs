@@ -1,0 +1,18 @@
+n=int(input("enter the number of element : "))
+list=[]
+for i in range(n):
+    a=int(input("enter numbers : "))
+    list.append(a)
+x=list[0]
+for i in range (0,len(list)):
+    if list[i] < x:
+        x= list[i]
+print(x)
+
+
+
+
+
+
+
+##print(list)
