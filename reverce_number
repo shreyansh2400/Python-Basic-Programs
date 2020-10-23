@@ -1,0 +1,11 @@
+n=int(input("enter no of element:"))
+list=[]
+l=[]
+for i in range(n):
+    a=int(input())
+    list.append(a)
+print("The entered number is: ",list)
+for i in range(n):
+    a=list.pop()
+    l.append(a)
+print("reverce number is:",l)
